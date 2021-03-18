@@ -6,10 +6,16 @@ import { AppComponent } from './app.component';
 
 import { AuthModule } from '@auth0/auth0-angular';
 import { environment } from './../environments/environment';
+import { HeaderComponent } from './components/commons/header/header.component';
+import { AuthButtonComponent } from './components/auth/auth-button/auth-button.component';
+import { FooterComponent } from './components/commons/footer/footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    AuthButtonComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
